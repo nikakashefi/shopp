@@ -1,7 +1,55 @@
+
 .img-fluid{
     border: solid;
     box-shadow: 10px 5px 5px rgb(156, 154, 154);
 }
+.rounded{
+    width: 100px;
+    height: 65px;
+    background-color: rgb(212, 212, 204);
+}
 .fw-bold{
     text-align: right;
+}
+.product{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px;
+    scroll-behavior: smooth;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.product2{
+   display: flex; 
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 40px;
+    flex-wrap: wrap;
+    gap: 40px;
+} 
+.price{
+    text-align: center;
+    animation: forwards;
+}
+.img{
+    border: 1px solid gray ;
+    border-radius: 5px;
+    background-color: darkgrey;
+}
+.img:hover{
+    transform: translate(50px, 100px);
+}
+.nav-link:hover{
+    color: rgb(231, 38, 38);
+}
+.footer{
+    text-align:right
+}
+.footer{
+    color: black;
+    background-color:darkgrey;
 }
